@@ -11,3 +11,5 @@ router.post('/', usuariosPost);
 router.delete('/', usuariosDelete);
 
 router.patch('/', usuariosPatch);
+
+module.exports = router;
